@@ -1,0 +1,39 @@
+.PAGE {
+    background-color: crimson;
+    width: 700px;
+    height: 300px
+}
+.HEADER {
+background-color: blue;    
+width: 600px;
+height: 40px;
+
+}
+.CONTENT {
+    background-color: blueviolet;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.ENTRY1, .ENTRY2, .ENTRY3 {
+    background-color: chartreuse;
+    width: 250px;
+    height: 30px;
+    margin-top: 25px;
+
+    
+}
+.SIDEBAR{
+    background-color: darkgreen;
+    width: 150px;
+    height: 145px;
+    margin-top: 40px;
+
+}
+.FOOTER {
+    background-color: darkgoldenrod;
+height: 30px;
+font-style: italic;
+border: dashed 2px coral;
+}

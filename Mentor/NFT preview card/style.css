@@ -1,0 +1,55 @@
+body {
+    background-color: cadetblue;
+    text-align: -webkit-center;
+    margin-top: 5%;
+}
+.main {
+    width: 290px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgb(56, 56, 87);
+    color: #8BACD9;
+    
+
+}
+.pic img {
+    width: 250px;
+    height: 50%;
+    border-radius: 10px;
+    margin: 20px;
+}
+.info {
+    text-align: left;
+    margin: 0px 20px 10px;
+}
+.info h3 {
+    color: whitesmoke;
+    margin-top: 0px ;
+}
+
+.clock {
+    margin-left: 70px;
+    
+}
+.info span {
+    color: #00FFF8;
+
+}
+
+.by img {
+     width: 36px;
+     padding-top: 10px;
+     display: inline-block;
+}
+.by {
+    margin-left: 20px; 
+    margin-right: 20px;
+    text-align: left;
+}
+.by span {
+    color: white;
+}
+.by p {
+    display: inline-block;
+    margin-left: 15px;
+}

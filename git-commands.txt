@@ -1,0 +1,27 @@
+git --help 
+
+git init - ჩაამატოს ჩვენი პროქტი ვერსიების კონტროლის სისტემაში
+
+git config --global user.name "თქვენი username" - დავაკავშიროთ მომხმარებლის სახელი github-თან
+git config --global user.email "თქვენი email" - დავაკავშიროთ ელექტრონული ფოსტა github-თან
+
+git config --global color.ui auto
+
+
+git config --list   -> გამოიტანოს კონფიგურაციის ფაილი
+
+git status -> გვითხრას რა მდგომარებოაში არის ჩვენი პროექტის ფაილები
+
+git add .  -> ამატებს ფაილებს ყურადღების ქვეშ
+
+git reset "ფაილის სახელი" -> ყურადღებიდან ამოგდება კონკრეტულ ფაილს
+
+git diff -> რა შეიცვალა წინა დამატებიდან
+
+git remote add origin "repository link" -> დაკავშირება ლოკალური git-ის github-ის რეპოზიტორთან
+
+git push origin "branch-ის სახელი" -> ავტვირთოთ backup-ი github-ზე
+
+git clone "რეპოზიტორის ლინკი" -> აკოპირებს github-იდან პროექტს
+
+git pull -> გვეხმარება პროექტის ცვლილებების ჩამოტვირთვაში

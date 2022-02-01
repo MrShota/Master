@@ -1,0 +1,111 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+.pic {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    color: rgb(207, 206, 197);
+    opacity: 0;
+   transition: opacity 0.25s;
+}
+.overlay:hover {
+    opacity: 1;
+}
+.overlay p {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.overlay:hover p {
+    transform: translateY(0px);
+}
+p {
+    margin: 100px;
+}
+/*-222222222222222222222-*/
+.main2 {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+.pic2 {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    color: rgb(207, 206, 197);
+    opacity: 0;
+   transition: opacity 0.25s;
+}
+.overlay2:hover {
+    opacity: 1;
+}
+p {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+/*333333333333333333333333333333333333333*/
+.main3 {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+.pic3 {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.overlay3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    color: rgb(207, 206, 197);
+    opacity: 0;
+   transition: opacity 0.25s;
+}
+.overlay3:hover {
+    opacity: 1;
+}
+.overlay3 p {
+    transform: translateX(20px);
+    transition: transform 0.25s;
+}
+.overlay3:hover p {
+    transform: translateX(0px);
+}
+p {
+    margin-top: 50px;
+    margin-right: 100px;
+}

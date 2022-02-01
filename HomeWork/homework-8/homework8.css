@@ -1,0 +1,101 @@
+body img {
+    width: 100px;
+    height: 100px;
+   
+}
+body {
+    display: flex;
+    justify-content: center;
+   
+
+}
+.nature {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+  
+    
+}
+
+.mountain {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 0px;
+    position: absolute;
+    z-index: -1;
+}
+.sun {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 60px;
+    animation-name: sun;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: -2;
+    
+}
+@keyframes sun {
+    from {top:150px;}
+    to {top:0px;}   
+}
+.cloud1 {
+    position: absolute;
+    animation-name: cloud1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-left: 60px;
+    animation-direction: alternate;
+}
+@keyframes cloud1 {
+    from {left:100px}
+    to {left: 200px} 
+}
+.cloud2 {
+    position: relative;
+    animation-name: cloud2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-left: 50px;  
+    animation-direction: alternate;
+}
+@keyframes cloud2 {
+    50% {right:0px}
+    100% {right: 100px}
+}
+
+.cloud3 {
+    margin-top: 60px;
+    margin-right: 60px;
+    position: relative;
+    animation-name: cloud3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes cloud3 {
+    0% {right: -100px}
+    50% {right:-100px}
+    100% {right: 200px;}
+    
+}
+.cloud1, .cloud2, .cloud3 {
+    width: 100px;
+    height: 100px;
+}
+
+.mountain img{
+    width: 200px;
+    height: 200px;
+}
+.sun img {
+    width: 50px;
+    height: 50px;
+}
+.cloud1 img, .cloud2 img , .cloud3 img {
+    width: 80px;
+    height: 80px;
+}
