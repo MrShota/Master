@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    width: 100%;
+    height: 80px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+   z-index: 1;
+    position: fixed;
+    cursor: pointer;
+    border-bottom: 0.3px solid gray;
+    
+}
+.navbar:scaledown {
+    background-color: white;
+    color: black;
+}
+.name {
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.middle {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+.list {
+ margin-right: 30px;
+ font-size: 12px;
+ font-weight: bold;
+ cursor: pointer;
+  
+}
+.ico {
+    width: 10%;
+    height: 100%;
+    border-left: 0.3px solid gray;
+}
+.ico img {
+    width: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: white;
+    
+}
+.mainimg {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+.mainimg img {
+    width: 100%;
+    height: 100vh;
+   
+    z-index: -999;
+    /* filter: grayscale(100%); */
+    opacity: .8;
+
+}
+.maintxt {
+    height: 100vh;
+    width: 70%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: 15%;
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.maintxt h1 {
+    font-size: 70px;
+}
+.p {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30px;
+    font-size: 20px;
+   
+}
+.maintxt button {
+    width: 150px;
+    height: 50px;
+  margin-top: 60px;
+    border-radius: 30px;
+}
+.btn1 {
+    background-color: rgb(93, 93, 218);
+    color: white;
+    border-style: none;
+}
+.btn1:hover {
+    background-color: blue;
+}
+.btn2 {
+   background-color: rgba(255, 255, 255, 0%);
+   color: white;
+   border: 1px solid rgb(255, 255, 255);
+}
+.btn2:hover {
+    background-color: white;
+    color: black;
+}
+.second-div {
+    width: 80%;
+    height:870px ;
+    margin-left: 10%;
+    margin-top: 50px;
+    
+}
+.second-div-txt {
+    width: 100%;
+  text-align: center;  
+}
+.second-div-txt h1 {
+    font-size: 45px;
+}
+.second-div-txt div {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.second-div-img {
+    margin-top: 60px;
+    width: 100%;
+}
+.second-div-img img {
+    width: 100%;
+}
+.second-div-list {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+}
+.list2 {
+    width: 24%;
+    margin: 1%;
+   
+}
+.list2img {
+    width: 40px;
+    height: 60px;
+  margin-top:10px ;
+  margin-left: 40%;
+}
+.list2img img {
+    width: 40px;
+    height: 40px;
+
+}
+.list2name, .list2content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+hr {
+    border: 1px  rgba(87, 87, 87, 0px);
+    margin: 100px 0px;
+    border-bottom: none;
+}
+.third-div{
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    text-align: center;
+  
+}
+.third-div-img {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.thirddivimg {
+    width:32.5%;
+  
+    margin: 5px;
+}
+.thirddivimg img {
+    width: 100%;
+} 
+.third-div-list {
+    width: 80%;
+    height: 550px;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+
+}
+.list3 {
+    width: 30%;
+    height: 220px;
+    margin: 1.5%;
+   
+}
+.list3img {
+    width: 50px;
+    height: 60px;
+  margin-top:10px ;
+ margin-bottom: 20px;
+}
+.list3img img {
+    width: 50px;
+    height: 50px;
+
+}
+.fifth-div {
+    width: 100%;
+    height:1000px ;
+    margin-top: 50px;
+    background-color: #F8F8F8;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fifth-div-content {
+    width: 80%;
+    height: 800px;
+    display: flex;
+    
+}
+.fifth-div-left {
+    width: 50%;
+    height: 100%;
+}
+.fifth-div-left img {
+    width: 100%;
+    height: 100%;
+}
+.fifth-div-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.list5 {
+    width: 70%;
+    height:150px ;
+    display: flex;
+}
+.list5head {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.list5 img {
+    width: 40px;
+    height: 40px;
+}
+.list5content {
+    width: 80%;
+    margin-left: 30px;
+    
+    
+}
+
+
+
+
+
