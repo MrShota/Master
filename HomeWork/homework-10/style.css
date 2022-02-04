@@ -341,28 +341,154 @@ hr {
     color: white;
 
 }
+/* <!-- surati slaidebiani warwerit --> */
 .seventh-div {
     width: 100%;
-    height: 1200px;
-
+   background-color: #F8F8F8;
+   height: 1200px;
 }
 .seventh-div-img {
     width: 100%;
     height: 500px;
-    background-color: rgba(255, 255, 255, 100%);
-   
-    z-index: 1;
-
+    margin-bottom: 100px;
 }
 .seventh-div-img img {
     width: 100%;
     height: auto;
-    z-index: -800;
-    position: fixed;
+   
+
+}
+.seventh-div-body {
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid rgb(232, 232, 232);
+    margin-top: -100px;
+    z-index: 3;
+    position: absolute;
+}
+.seventh-div-section {
+    width: 33.2%;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
 }
 
+.seventh-div-section img {
+    width: 40px;
+    height: 40px;
+}
+.seventh-div-section-top {
+    margin-bottom: 40px;
+}
+.seventh-div-section-middle {
+    border-top: 1px solid gray
 
+}
+.seventh-div-section-bottom button {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #7982fd;
+    border-style: none;
+    color: white;
+    margin-top: 40px;
 
+}
+.seventh-div-section-bottom button:hover {
+    background-color: #505CFD;
+}
+.minor-icon img {
+    width: 20px;
+    height: 20px;
+    padding-top: 0px;
+    
+    padding-bottom: 40px;
+}
+.seventh-div-footer {
+    margin-top: 67px;
+    width: 80%;
+    height: 150px;
+    margin-left: 10%;
+    display: flex; 
+}
+.seventh-div-footer div {
+    width: 100%;
+    height: 150px; 
+}
+.seventh-div-footer img {
+    width: 40%;
+   
+   margin-top: 30px;
+   margin-left: 65px;
+}
+.eight-div {
+    width: 80%;
+    height: 600px;
+ margin-top: 100px;
+    text-align: center;
+    margin-left: 10%;
 
+}
+.eight-div-top {
+    width: 100%;
+}
+.eight-div-middle {
+    width: 33%;
+    height: 100%;
+    margin-top: 30px;
+    text-align: left;
+
+}
+.eight-div-middle img {
+    width: 100%;
+}
+.eight-div-bottom {
+    display: flex;
+}
+.eight-div-middle div {
+    margin: 5%;
+}
+.nineth-div {
+    width: 100%;
+    background-color: #F8F8F8;
+    
+}
+.nineth-div-main {
+    width: 80%;
+   margin-left: 10%;
+    display: flex;
+    background-color: #F8F8F8;
+    margin-top: 100px;
+    
+}
+.nineth-div-top {
+    width: 25%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+.nineth-div-top img {
+    width: 35px;
+    height: 35px;
+}
+.nineth-div-top-img img {
+    width: 100%;
+   
+}
+.footer {
+    width: 100%;
+    height: 300px;
+    color: white;
+    background-color: #222222;
+   
 
 
