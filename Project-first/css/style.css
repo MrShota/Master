@@ -16,11 +16,13 @@
  position: absolute;
  top: 150px;
  left: 100px;
+ font-family: font2;
 }
 .main-box {
     width: 100%;
     height: 900px;
     background-color: #141416;
+    font-family: font1;
    
 }
 .box {
@@ -43,7 +45,7 @@
     width: 90%;
     height: 90%;
     margin: 5%;
-     border: 1px solid #3F4349;
+     border: 1px solid #49494A;
     background-color: #141416;
 }
 .box-header{
@@ -69,7 +71,17 @@
     width: 90%;
     height: 50%;
     margin: 5%;
+    transition: .5s;
+}
+.box-text h3 {
+    color: #FFFFFF;
+}
+.box-text p {
+    color: #3F4349;
+}
+.box-text h3:hover, p:hover {
    
+    color: #FD6262;
 }
 .box-text p{
     padding-top: 10px;
