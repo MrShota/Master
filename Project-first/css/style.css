@@ -2,7 +2,26 @@
      margin: 0;
     padding: 0;
 }
+.nav-bar {
+    width: 100%;
+    height: 100px ;
+    background-color: #161416;
+}
+.nav-bar-left {
+    width: 30%;
+    height: 100%;
+    
+    color: #FFFFFF;
+    text-align: center;
+ font-size: 25px;
+ padding-top: 35px;
 
+}
+.nav-bar-right {
+    width: 70%;
+    height: 100%;
+    color: #FFFFFF;
+}
 .main-img {
     width: 100%;
     height: 90vh;
@@ -16,13 +35,14 @@
  position: absolute;
  top: 150px;
  left: 100px;
- font-family: font2;
+ font-family: font3;
 }
 .main-box {
     width: 100%;
-    height: 900px;
+    height: 850px;
     background-color: #141416;
     font-family: font1;
+    font-weight:none;
    
 }
 .box {
@@ -114,4 +134,20 @@ margin-right: 10px;
 }
 .box-footer-txt2 {
     margin-right: 50%;
+}
+
+button {
+    width: 70px;
+    height:70px;
+    background-color: #FD6262;
+    border: none;
+    border-radius: 10px; position: fixed;
+   right: 20px;
+   bottom: 20px;
+   cursor: pointer;
+}
+.chat-box img {
+    width: 27px;
+    height:27px;
+   
 }
