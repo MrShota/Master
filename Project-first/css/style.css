@@ -33,9 +33,7 @@
     margin-left: 40%;
     cursor: pointer;
     transition: 0.5s ease;
-    font-family: font2;
-
-    
+    font-family: font2;  
 }
 .nav-bar-right-menu:hover{
     color: #FD6262;
