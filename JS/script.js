@@ -1,30 +1,58 @@
 // "use strict"
 
-// console.log("Hello world!");
-// console.log ("Im MrBlack")
+// console.log ("hello world")
+// console.log ("I'm MrBlack")
+// console.log ("Nice to meet you")
+// console.log ("I'm here for big goals")
 
-// var a = 20
-// // console.log(a)
+// var a=20
+// var b=10
+// var c=a+b
+// console.log( a, b)
+// console.log( a+b)
 
-// var b = 10 
-// // console.log (a, b)
-// // console.log (a + b)
+var a=(20)
+var b=(10)
 
-// var c = a + b
-// // console.log(c)
+// var c=a
+// a=b
+// b=c
 
-// // console.log(0+true)
+a=a+b
+b=a-b
+a=a-b
+
+
+// b=20
+// a=10
+
+console.log(a,b)
+
+
+
+
+
+
+
+// var c=a+b
+// console.log(c)
+
+
+// console.log(a,b)
+
+
+// console.log(0+true)
  
-// // console.log(typeof b)
+// console.log(typeof b)
 
-// // alert("hello world")
-// // prompt()
-// // confir()
-// // prompt ("enter your name: ")
-// // var name = prompt ("enter your name: ")
-// // var age= prompt("enter your age")
-// // console.log(name)
-// // console.log ("you are" + "years old")
+// alert("hello world")
+// prompt()
+// confir()
+// prompt ("enter your name: ")
+// var name = prompt ("enter your name: ")
+// var age= prompt("enter your age")
+// console.log(name)
+// console.log ("you are" + "years old")
 // var x = prompt("enter number 1: ")
 // var y = prompt("enter number 2: ")
 // console.log("x + y =" + x + y)
