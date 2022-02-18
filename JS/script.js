@@ -470,14 +470,211 @@ else
 
 
 
-const inputYear=`1988`;
-console.log(Number(inputYear))
-console.log(Number(inputYear) + 18)
+// const inputYear=`1988`;
+// console.log(Number(inputYear))
+// console.log(Number(inputYear) + 18)
 
-console.log(String (23), 23)
+// console.log(String (23), 23)
 
 
-console.log( ` I'm ` +  23 +  ` years old `)
-console.log(`23` + `10` - 3)
-console.log(`20` * 4 )
+// console.log( ` I'm ` +  23 +  ` years old `)
+// console.log(`23` + `10` - 3)
+// console.log(`20` * 4 )
+
+
+
+
+// const money = 0;
+// if (money) {
+//     console.log(`Don't spend it all...`);
+// } else {
+//     console.log(`Yoe need to have a money!`);
+// }
+
+// const height = 10;
+// if (height) 
+//  console.log(`Height is defoned.`);
+//  else {
+//     console.log(`height isn't defined...`);
+// }
+
+
+//  const favorite = + prompt(`enter favorite number`);
+
+//  if (favorite == 0) console.log(`Cool`)
+//  else if (favorite <= 10 ) console.log(`Cool too`)
+//  else {
+//      console.log(`Nop`)
+//  }
+
+
+
+
+// const age= 16
+// if (age >= 20 ){
+//     console.log(`true`)
+// } else {
+//     console.log(`false`)
+// }
+
+
+// const hasLicense = true;
+// const hasVision = true;
+// console.log(hasLicense && hasVision);
+// console.log(hasLicense || hasVision);
+// console.log(!hasLicense);
+
+// const shouldDrive = hasLicense && hasVision
+
+// if (shouldDrive) {
+//     console.log(`Can Drive`)
+// } else {
+//     console.log(`Cann't Drive`)
+// }
+
+
+
+// const hasLicense = true;
+// const hasVision = true;
+// const isTired = true;
+
+// const shouldDrive = hasLicense && hasVision && !isTired;
+
+// if (shouldDrive) {
+//         console.log(`Can Drive`)
+//     } else {
+//         console.log(`Cann't Drive`)
+//     };
+
+// ----------------------------------------
+
+// const scoreDolphins = (96 + 108 + 90) / 3;
+// const scoreKoalas = (88 + 96 + 110) / 3;
+
+// console.log(scoreDolphins, scoreKoalas);
+
+// if (scoreDolphins > scoreKoalas) {
+//     console.log(`The Winner is Dolphins`);
+// } else if (scoreDolphins < scoreKoalas) {
+//     console.log(`The Winner is Koalas`);
+// } else {
+//     console.log(`It is a Draw`);
+// }
+
+
+// const scoreDolphins = (97+ 112+ 101) / 3;
+// const scoreKoalas = (109+ 95+ 123)/ 3;
+
+// console.log(scoreDolphins, scoreKoalas);
+
+// if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+//     console.log(`The winners is Dolphins`)
+// } else if (scoreDolphins < scoreKoalas && scoreKoalas >= 100) {
+//     console.log(`The winners is Koalas`)
+// } else {
+//     console.log(`it is a draw`)
+// }
+
+
+// const scoreDolphins = (97+ 112+ 101) / 3;
+// const scoreKoalas =(109+ 95+ 106) / 3;
+
+// console.log( scoreDolphins, scoreKoalas)
+
+// if (scoreDolphins> scoreKoalas && scoreDolphins>= 100) {
+//     console.log(`winner is Dolphins`)
+// } else if ( scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+//     console.log(`winner is Koalas`)
+// } else if (scoreDolphins === scoreKoalas && scoreDolphins > 100 && scoreKoalas > 100) {
+//     console.log(`it is a draw`)
+// } else {
+//     console.log(`no one wins, Sorry `)
+// }
+
+// --------------------------------------
+
+// const day = `monday`;
+
+// switch (day) {
+//     case `monday`:
+//         console.log(`Plan course structure`);
+//         console.log(`Go to coding meet up`);
+//         break;
+//     case `tuesday`:
+//         console.log(`prepearing videos`);
+//         break;
+//     case `wednsday`:
+//     case `thursday`:
+//         console.log(`write code examples`);
+//         break;
+//     case `fridday`:
+//         console.log(`record video`);
+//         break;
+//     case `saturday`:
+//     case `sunday`:
+//         console.log(`enajoy the weekend`)
+//         break;
+//         default:
+//             console.log(`not a valid day`)
+
+// }
+
+// const monday = `Plan course structure, Go to coding meet up`;
+// const tuesday =`prepearing videos`;
+// const wednsday =  `write code examples`;
+// const thursday = `write code examples`;
+// const friday = `record video`;
+// const saturday = `enajoy the weekend`;
+// const sunday =  `enajoy the weekend`;
+
+// const day = ``
+
+// if (day === `monday`) {
+//     console.log(`Plan course structure, \nGo to coding meet up`)
+// } else if (day === `tuesday`) {
+//     console.log(`prepearing videos`)
+// } else if (day === `wednsday` || day ===` thursday`) {
+//     console.log(`write code examples`)
+// } else if (day ===`friday`) {
+//     console.log(`record video`)
+// } else if (day === `saturday` ||  day===`sunday`) {
+//     console.log(`enajoy the weekend`)
+// } else {
+//     console.log(`something is wrong`)
+// }
+
+
+// const age = 113;
+// //  age >= 18 ? console.log(`can drink win`) : 
+// //  console.log(`can not drink wine`)
+
+// const drink = age >=18 ? `wine`: `water`
+// console.log(drink);
+
+// let drink2;
+// if (age>=18) {
+//     drink2=`wine`
+// } else {
+//     drnk2=`water`
+// }
+
+// var correctAnswer = false;
+
+// while (!correctAnswer) {
+//     var answer = prompt (`enter number`)
+
+//     if (answer === `ok`)
+//     correctAnswer = true
+// }
+
+// console.log(`correct`)
+
+// for (var i = 10; i > 0; i -= 1) {
+//     console.log(`hello ` + i);
+// }
+
+
+
+
+
 
