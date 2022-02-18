@@ -674,7 +674,60 @@ else
 // }
 
 
+// function some() {
+//     for(var i = 0; i < 3; i ++  ){
+//         console.log(i)
+//     }
+// }
+// some()
+
+// function printMessage (name) {
+//     console.log(`welcome ` + name + `you are` + `years old` );
+// }
+
+// var userName = prompt(`enter name`)
+
+// printMessage(userName)
+
+// function add(x, y) {
+//     return x + y;
+    
+// }
+// var num = add(12, 32)
+
+// console.log(num + 10)
+
+
+// (function (){
+//     console.log("Factorial for N ")
+// }());
+// function factorial (n) {
+// n = +prompt("enter value for Factorial: ");
+// var result = 1;
+//  for (var i = 1 ; i <=n ; i++)
+//  result *= i;
+//  console.log(n + " -ის ფაქტორიალია " + result + "\n")
+// }
+// factorial();
 
 
 
+// triangle number  
+(function (message){
+    var message = "Triangle pattern" ;
+ console.log(message);
+}());
 
+
+ function triangle(n, string ){
+     n = +prompt("enter value for Triangle: ");
+     string = "";
+     for (var i = 1 ; i <= n ; i ++){
+         for (var j = 1 ;j <= i ; j++){
+             string += j ;
+         }
+         string += "\n";
+     }
+     console.log(string)
+ }
+ triangle()
