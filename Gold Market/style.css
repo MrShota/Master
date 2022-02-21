@@ -91,7 +91,8 @@
     height: 500px;
     margin: 30px 0;
 }
-
+ 
+/* --------------line----------- */
 .bold-line {
    display: flex;
    justify-content: baseline;
@@ -110,68 +111,96 @@
     font-weight: bold;
 
 }
+
 /*  4photos-div */
+
+
 .four-photos-div {
     display: flex;
-    width: 100%;
+    width: 99%;
     height: 200px;
-    margin: 30px 0;
+    margin: 30px auto;
+    box-shadow: 5px 10px 10px 5px;
 }
 .four-photos-div img {
     height: 100%;
     width: 25%;
 
 }
-.categories-gallery-div {
+
+/* -------  categories -------*/
+
+
+.categories {
     width: 100%;
     height: 100vh;
-   
+    /* background-color: aquamarine; */
 }
-.categories-gallery-div-bgimg {
-    position: relative;
-    z-index: -999;
-   
-}
-.categories-gallery-div-bgimg img {
-    width: 30%;
-    height: auto;
-    
-    
-}
-.categories-gallery-div-bgimg .img2 {
-    float: right;
-    transform: rotate(330deg);
-    margin-right: 75px;
-   
-  
-
-}
-.categories-gallery-div-bgimg .img1 {
-    margin-top: 20%;
-   
-    transform: rotate(330deg);
-  
-    
-   
-}
-.categories {
-    position: absolute;
-    z-index: 2;
-    width: 100%;
+.categories-div {
+    width: 25%;
     height: 50%;
+    margin: auto;
+    /* background-color: brown; */
+    
+  
+    transform: rotate(-45deg);
 
-    background-color: aquamarine;
 }
-.categories-img {
-    width: 100%;
-    height: 100%;
-}
-.categories-img div {
-    width: 30%;
-    height: 30%;
+.categories p {
+    margin: 0;
 }
 
-.categories-img img {
-    width: 100%;
-    height: 100%;
+.categories-div {
+    display: flex;
+
 }
+.para {
+    width: 50px;
+    height: 44px;
+}
+.para2  {
+    transform: rotate(270deg);
+}
+
+
+.categories-div img {
+    width: 180px;
+    height: 180px;
+    box-shadow: 10px 10px 10px;
+    grid-area: pic;
+    /* transform: rotate(-45deg); */
+} 
+
+
+/* ----------------------GALERY------------- */
+.gallery {
+    width: 100%;
+    height: 50vh;
+}
+.gallery img {
+    width: 18%;
+    box-shadow: 10px 5px 10px;
+    margin: 30px 10px;
+}
+
+
+    /* -----------footer----------- */
+
+    .footer {
+        width: 100%;
+        height: 40vh;
+        background-color: rgb(65, 0, 65);
+        color: white;
+        display: flex;
+
+    }
+    .footer div {
+        width: 20%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer-social img {
+        width: 20px;
+        height: 20px;
+    }
