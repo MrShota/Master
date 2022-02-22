@@ -96,18 +96,17 @@
 .bold-line {
    display: flex;
    justify-content: baseline;
-   z-index: +3;
   
 }
 .bold-line-left, .bold-line-right {
     width: 47%;
-    height: 2px;
+    height: 2.5px;
     background-color: black;
-    margin: 15px 0;
+    margin: 20px 0;
 }
 .bold-line p {
     margin: 0 1%;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 
 }
@@ -117,15 +116,20 @@
 
 .four-photos-div {
     display: flex;
-    width: 99%;
+    flex-direction: row;
+    width: 95%;
     height: 200px;
     margin: 30px auto;
     box-shadow: 5px 10px 10px 5px;
 }
-.four-photos-div img {
+.four-photos-div img  {
     height: 100%;
-    width: 25%;
+    width: 100%;
 
+}
+.four-photos-div a {
+    width: 25%;
+    height: 100%;
 }
 
 /* -------  categories -------*/
@@ -179,8 +183,8 @@
 }
 .gallery img {
     width: 18%;
-    box-shadow: 10px 5px 10px;
-    margin: 30px 10px;
+    box-shadow: 10px 5px 10px #888888;
+    margin: 40px 10px;
 }
 
 
@@ -188,19 +192,55 @@
 
     .footer {
         width: 100%;
-        height: 40vh;
+        height: 35vh;
         background-color: rgb(65, 0, 65);
-        color: white;
         display: flex;
-
+        color: white;
+     
+        
+    }
+    .footer a {
+        color: white;
+        text-decoration: none;
+        
+    }
+    .footer a:hover {
+        color: rgb(199, 8, 129);
     }
     .footer div {
         width: 20%;
         text-align: center;
+        text-decoration: none;
         margin-top: 20px;
+        
     }
-
+    .footer-column {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
     .footer-social img {
         width: 20px;
         height: 20px;
+        margin: 3px;
+
+        
+    }
+    .footer-social h5 {
+        margin-top: 20%;
+    }
+  
+    .footer-search img {
+        width:20px ;
+        color: aliceblue;
+    }
+    .footer-search input {
+        width: 120px;
+        border: none;
+        border-bottom: 1px solid white;
+        color: white;
+        font-size: 18px;
+        text-align: start;
+        background-color: rgb(65, 0, 65);
+        margin-top: 20%;
     }
