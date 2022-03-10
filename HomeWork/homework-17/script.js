@@ -20,5 +20,5 @@ var comment = document.querySelector(`#comment`);
 var commen = document.querySelector(`#commen`);
 var comme = document.querySelector(`#comme`);
 comment.textContent =  comments  +  ` Comments`
-commen.textContent =  comments  +  ` Comment`
-comme.textContent =  comments  +  ` Commen`
+commen.textContent =  comments  +  ` Comments`
+comme.textContent =  comments  +  ` Comments`
