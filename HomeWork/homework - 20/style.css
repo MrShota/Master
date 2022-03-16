@@ -1,6 +1,25 @@
 * {
     margin: 0;
     padding: 0;
+   }
+/* h1 h2 h3 h4 h5 h6 {
+    font-family: font1;
+} */
+@font-face {
+    font-family:font1;
+    src: url(fonts/font1.woff2);
+}
+@font-face {
+    font-family:font2;
+    src: url(fonts/font2.woff2);
+}
+@font-face {
+    font-family:font3;
+    src: url(fonts/font3.woff2);
+}
+@font-face {
+    font-family:font4;
+    src: url(fonts/font4.woff2);
 }
 .navbar {
     width: 100%;
@@ -72,6 +91,7 @@ font-size: 40px;
     width: 60px;
     height: 10px;
     background-color: white;
+    margin-bottom: 20px;
     
 }
 .second-div-outer {
@@ -106,11 +126,14 @@ position: relative;
     font-size: 40px;
 
 }
+.third-div-txt p {
+    margin-top: 30px;
+}
 .third-div-colored {
-    width: 60px;
-    height: 10px;
+    width: 55px;
+    height: 13px;
     background-color: #4E5AC3;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 
 }
 .fourth-div {
@@ -126,10 +149,13 @@ height: 100vh;
 }
 
 .forth-div-colored {
-    width: 60px;
-    height: 10px;
+    width: 55px;
+    height: 13px;
     background-color: #4E5AC3;
     margin-bottom: 8px;
+}
+.forth-div-top p {
+    margin-top: 50px;
 }
 .fourth-div-bottom {
 width: 100%;
@@ -179,10 +205,13 @@ flex-wrap: wrap;
 }
 
 .fifth-div-top-colored {
-    width: 60px;
-    height: 10px;
+    width: 55px;
+    height: 15px;
     background-color: #4E5AC3;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
+}
+.fifth-div-top p {
+    margin-top: 50px;
 }
 .fifth-div-bottom {
     width: 80%;
@@ -199,35 +228,164 @@ flex-wrap: wrap;
 }
 .sixth-div-top {
     padding-top: 100px;
-    /* margin-bottom: 100px; */
+    margin-bottom: 35px;
 }
 
 .sixth-div-bottom {
     width: 100%;
     height: 40vh;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    display: flex;
 }
 .sixth-div-bottom img {
-    width: 24.7%;
+    width: 100%;
+    height: auto;
+}
+.sixth-div-bottom div {
+    width: 25%;
     height: 100%;
 }
+.mw1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
 .seventh-div, .seventh-div img {
     width: 100%;
     height: 100vh;
     position: relative;
 }
 .seventh-div-colored {
-    width: 60px;
-    height: 10px;
-    background-color: red;
-    margin-bottom: 8px;
-    position: absolute;
-    top: 80;
-    left: 200px;
+    width: 55px;
+    height: 15px;
+    background-color: white;
+    margin-top: -30px;
+   
 }
-.seventh-div-txt {
+.seventh-div-txt, .seventh-div-colored {
     position: absolute;
     top: 100px;
     left: 200px;
     font-size: 40px;
+}
+.seventh-div-bottom {
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    color: white;
+    font-size: 25px;
+
+}
+.seventh-div-bottom div {
+    width: 250px;
+    height: 50%;
+}
+.eights-div {
+    width: 100%;
+    height: 100vh;
+
+}
+.eights-div-top {
+    width: 80%;
+    height: 30%;
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+.eights-div-bottom {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+.eigthts-bottom-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 50px;
+
+}
+.inputs {
+    width: 400px;
+    height: 30px;
+    border: 2px solid black;
+}
+.inputs:hover {
+    border: 1px solid gray;
+
+}
+#mssg {
+    width: 400px;
+    height: 150px;
+    border: 2px solid black;
+
+}
+#mssg:hover {
+    border: 1px solid gray;
+}
+#bttn {
+    width: 130px;
+    height: 35px;
+    background-color: #4E5AC3;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 250px;
+   justify-content: flex-end;
+}
+#bttn:hover {
+    background-color: black;
+    transition: .5s;
+}
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #3C3C4E;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+}
+.footer-left {
+    width: 40%;
+    height: 50%;
+    margin: 70px 0 0 200px;
+    
+}
+.footer-right {
+    width: 40%;
+    height: 50%;
+    margin-top: 70px;
+}
+.footer-right img {
+width: 30px;
+height: 30px;
+margin: 10px;
+}
+.menu-bar {
+position: fixed;  
+top: 170px;
+right: 50px;
+cursor: pointer;
+
+}
+.msg {
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: -20px;
+}
+.msg img {
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+
+}
+.menu-bar {
+    background-color: transparent;
 }
